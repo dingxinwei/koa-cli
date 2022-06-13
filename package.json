@@ -1,10 +1,10 @@
 {
-  "name": "@dingxinwei/my-koa-cli",
-  "version": "1.0.3",
+  "name": "@dingxinwei/koa-express-cli",
+  "version": "1.0.4",
   "description": "生成koa ts项目模板",
   "main": "index.js",
   "bin": {
-    "my-koa-cli": "./bin/www"
+    "koa-express-cli": "./bin/www"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   "author": "dxw",
   "license": "MIT",
   "dependencies": {
-    "download-git-repo": "^3.0.2"
+    "commander": "^9.3.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.4"
   }
 }
