@@ -3,5 +3,5 @@
 ## 使用
 ```bash
 npm i @dingxinwei/koa-express-cli -g
-koa-express-cli -e koa-demo
+koa-express-cli create koa-demo
 ```
