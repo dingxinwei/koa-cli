@@ -37,7 +37,7 @@ async function downCode(arg) {
     name: 'repo',
     type: 'list',
     message: 'please choise a template to create project',
-    choices: ['koa-ts-template'],
+    choices: ['koa-ts-template', 'express-ts-template'],
   });
   
   if (!fs.existsSync(arg)) {
